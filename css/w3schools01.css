@@ -1,0 +1,17 @@
+/*
+    First example from w3schools, copied 1/24/2024 from:
+    https://www.w3schools.com/css/default.asp
+*/
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
