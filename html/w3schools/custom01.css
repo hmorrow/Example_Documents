@@ -1,0 +1,50 @@
+.myLinkBtn {
+    /*
+        8/27/2024 by Howard Morrow
+        
+        Create custom CSS classes by copying sections from the primary spreadsheet.
+        Used to avoid having to change multiple classes on multiple elements when the style changes.
+        Example: 
+                class = "myClass" 
+            instead of: 
+                class = "w3-btn w3-teal w3-hover-black"
+
+            When you change the definition of myClass, you don't have to edit the class of multiple elements.
+            Helpful to comment the sections of the class with the origin class
+    */
+    /* w3-btn */
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+    /* w3-btn SECOND DEF*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* w3-teal */
+    color: #fff !important;
+    background-color: #009688 !important
+
+}
+
+.myLinkBtn:hover {
+    /* w3-btn:hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* w3-hover-black:hover */
+    color: #fff !important;
+    background-color: #000 !important;
+
+}
